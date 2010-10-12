@@ -40,22 +40,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3a1fc3e-baa3-4a9f-af22-9551cb4b6087" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/friendly_id_mongoid.gemspec" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/friendly_id_mongoid.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/friendly_id_datamapper.gemspec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/friendly_id_datamapper.rb" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/friendly_id/datamapper_adapter/configuration.rb" afterPath="$PROJECT_DIR$/lib/friendly_id/mongoid_adapter/configuration.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/friendly_id/datamapper_adapter/simple_model.rb" afterPath="$PROJECT_DIR$/lib/friendly_id/mongoid_adapter/simple_model.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/friendly_id/datamapper_adapter/slug.rb" afterPath="$PROJECT_DIR$/lib/friendly_id/mongoid_adapter/slug.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/friendly_id/datamapper_adapter/slugged_model.rb" afterPath="$PROJECT_DIR$/lib/friendly_id/mongoid_adapter/slugged_model.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/friendly_id/datamapper_adapter/tasks.rb" afterPath="$PROJECT_DIR$/lib/friendly_id/mongoid_adapter/tasks.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/friendly_id/datamapper_adapter/version.rb" afterPath="$PROJECT_DIR$/lib/friendly_id/mongoid_adapter/version.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChangeLog.md" afterPath="$PROJECT_DIR$/ChangeLog.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/tasks_test.rb" afterPath="$PROJECT_DIR$/test/tasks_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_helper.rb" afterPath="$PROJECT_DIR$/test/test_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/friendly_id_mongoid.gemspec" afterPath="$PROJECT_DIR$/friendly_id_mongoid.gemspec" />
     </list>
     <ignored path="friendly_id_mongoid.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,10 +64,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="slug.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="slug.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/friendly_id/mongoid_adapter/slug.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="26" selection-start="643" selection-end="643" vertical-scroll-proportion="0.5436047">
+            <state line="17" column="26" selection-start="643" selection-end="643" vertical-scroll-proportion="-13.851851">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="friendly_id_mongoid.gemspec" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/friendly_id_mongoid.gemspec">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="45" selection-start="865" selection-end="865" vertical-scroll-proportion="0.47965115">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="9" selection-start="27" selection-end="27" vertical-scroll-proportion="-1.6296296">
               <folding />
             </state>
           </provider>
@@ -121,7 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/friendly_id_mongoid.gemspec" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/ChangeLog.md" />
         <option value="$PROJECT_DIR$/test/test_helper.rb" />
@@ -132,6 +135,7 @@
         <option value="$PROJECT_DIR$/lib/friendly_id/mongoid_adapter/version.rb" />
         <option value="$PROJECT_DIR$/lib/friendly_id/mongoid_adapter/slugged_model.rb" />
         <option value="$PROJECT_DIR$/lib/friendly_id/mongoid_adapter/slug.rb" />
+        <option value="$PROJECT_DIR$/friendly_id_mongoid.gemspec" />
       </list>
     </option>
   </component>
@@ -287,14 +291,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1916" height="1178" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912534" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67087466" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67087466" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32912534" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -340,13 +344,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/friendly_id_mongoid.gemspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="869" selection-end="869" vertical-scroll-proportion="0.35517567">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="20" selection-start="851" selection-end="851" vertical-scroll-proportion="0.334283">
@@ -371,13 +368,6 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="9" selection-start="27" selection-end="27" vertical-scroll-proportion="0.06395349">
           <folding />
         </state>
       </provider>
@@ -426,7 +416,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/friendly_id/mongoid_adapter/slug.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="26" selection-start="643" selection-end="643" vertical-scroll-proportion="0.5436047">
+        <state line="17" column="26" selection-start="643" selection-end="643" vertical-scroll-proportion="-13.851851">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="9" selection-start="27" selection-end="27" vertical-scroll-proportion="-1.6296296">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/friendly_id_mongoid.gemspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="45" selection-start="865" selection-end="865" vertical-scroll-proportion="0.47965115">
           <folding />
         </state>
       </provider>
