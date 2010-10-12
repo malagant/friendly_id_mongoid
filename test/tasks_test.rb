@@ -1,5 +1,5 @@
 require File.expand_path('../test_helper', __FILE__)
-require 'friendly_id/datamapper_adapter/tasks'
+require 'friendly_id/mongoid_adapter/tasks'
 
 class TasksTest < Test::Unit::TestCase
 

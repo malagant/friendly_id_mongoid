@@ -1,4 +1,4 @@
-# FriendlyId DataMapper Adapter Changelog
+# FriendlyId Mongoid Adapter Changelog
 
 * Table of Contents
 {:toc}

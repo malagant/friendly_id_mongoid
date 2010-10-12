@@ -1,5 +1,5 @@
 module FriendlyId
-  module DataMapperAdapter
+  module MongoidAdapter
     module Version
       MAJOR  = 3
       MINOR  = 1

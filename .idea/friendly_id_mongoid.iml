@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="GemRequirementsHolder" version="3">
+    <requirement>
+      <requirement>
+        <dependency name="friendly_id" version="0" bound="GREATER_OR_EQUAL" git="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+      <source from="extras/template-gem.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="haml" version="0" bound="GREATER_OR_EQUAL" git="false" doRequire="true" />
+      </requirement>
+      <source from="extras/template-gem.rb" />
+      <source from="extras/template-plugin.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="mocha" version="0" bound="GREATER_OR_EQUAL" git="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="mongoid" version="2.0.0.beta.18" bound="EQUAL" git="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="will_paginate" version="0" bound="GREATER_OR_EQUAL" git="false" doRequire="true" />
+      </requirement>
+      <source from="extras/template-gem.rb" />
+      <source from="extras/template-plugin.rb" />
+    </requirement>
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rake (v0.8.7, /Users/mjohann/.rvm/gems/jruby-1.5.2@global/gems/rake-0.8.7)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] will_paginate (v3.0.pre2, /Users/mjohann/.rvm/gems/jruby-1.5.2@rails23x/gems/will_paginate-3.0.pre2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] bundler (v1.0.0, /Users/mjohann/.rvm/gems/jruby-1.5.2@global/gems/bundler-1.0.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] mocha (v0.9.8, /Users/mjohann/.rvm/gems/jruby-1.5.2@rails23x/gems/mocha-0.9.8)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] mongoid (v2.0.0.beta.18, /Users/mjohann/.rvm/gems/jruby-1.5.2@rails23x/gems/mongoid-2.0.0.beta.18)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] bson (v1.0.4, /Users/mjohann/.rvm/gems/jruby-1.5.2@rails23x/gems/bson-1.0.4)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] tzinfo (v0.3.23, /Users/mjohann/.rvm/gems/jruby-1.5.2@rails23x/gems/tzinfo-0.3.23)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] activemodel (v3.0.0, /Users/mjohann/.rvm/gems/jruby-1.5.2@rails23x/gems/activemodel-3.0.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] builder (v2.1.2, /Users/mjohann/.rvm/gems/jruby-1.5.2@rails23x/gems/builder-2.1.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] i18n (v0.4.1, /Users/mjohann/.rvm/gems/jruby-1.5.2@rails23x/gems/i18n-0.4.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] mongo (v1.0.7, /Users/mjohann/.rvm/gems/jruby-1.5.2@rails23x/gems/mongo-1.0.7)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] activesupport (v3.0.0, /Users/mjohann/.rvm/gems/jruby-1.5.2@rails23x/gems/activesupport-3.0.0)" level="application" />
+  </component>
+</module>
+

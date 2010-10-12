@@ -1,7 +1,5 @@
-
-
 module FriendlyId
-  module DataMapperAdapter
+  module MongoidAdapter
 
     module SimpleModel
 
@@ -9,14 +7,14 @@ module FriendlyId
         base.class_eval do
           column = friendly_id_config.column
           validates_presence_of column, :unless => :skip_friendly_id_validations
-          validates_length_of   column, :maximum => friendly_id_config.max_length, :unless => :skip_friendly_id_validations
+          validates_length_of column, :maximum => friendly_id_config.max_length, :unless => :skip_friendly_id_validations
           validates_with_method column, :method => :validate_friendly_id, :unless => :skip_friendly_id_validations
 
           before :update do
             @old_friendly_id = original_attributes[properties[friendly_id_config.column]]
           end
 
-          after  :update, :update_scopes
+          after :update, :update_scopes
         end
 
         def base.get(*key)
@@ -47,7 +45,7 @@ module FriendlyId
 
       # Returns the friendly id, or if none is available, the numeric id.
       def to_param
-        (friendly_id || id).to_s
+        (friendly_id || _id).to_s
       end
 
       private
@@ -72,9 +70,9 @@ module FriendlyId
 
       def validate_friendly_id
         if result = friendly_id_config.reserved_error_message(friendly_id)
-          return [false, result.join(' ')]
+          [false, result.join(' ')]
         else
-          return true
+          true
         end
       end
 

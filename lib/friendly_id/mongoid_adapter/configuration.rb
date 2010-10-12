@@ -1,15 +1,15 @@
 module FriendlyId
-  module DataMapperAdapter
+  module MongoidAdapter
 
     # Extends FriendlyId::Configuration with some implementation details and
-    # features specific to DataMapper.
+    # features specific to Mongoid.
     class Configuration < FriendlyId::Configuration
 
       # The column used to cache the friendly_id string. If no column is specified,
       # FriendlyId will look for a column named +cached_slug+ and use it automatically
       # if it exists. If for some reason you have a column named +cached_slug+
       # but don't want FriendlyId to modify it, pass the option
-      # +:cache_column => false+ to {FriendlyId::DataMapperAdapter#has_friendly_id has_friendly_id}.
+      # +:cache_column => false+ to {FriendlyId::MongoidAdapter#has_friendly_id has_friendly_id}.
       attr_accessor :cache_column
 
       # An array of classes for which the configured class serves as a

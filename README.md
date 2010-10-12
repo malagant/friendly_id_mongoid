@@ -1,7 +1,7 @@
-# FriendlyId DataMapper Adapter
+# FriendlyId Mongoid Adapter
 
 This is an pre-release (beta) adapter for
-[FriendlyId](http://norman.github.com/friendly_id) using DataMapper.
+[FriendlyId](http://norman.github.com/friendly_id) using Mongoid.
 
 ## FriendlyId Features
 
@@ -17,7 +17,7 @@ Currently, only finds using `get` is supported.
 
 ## Compatibility
 
-The FriendlyId DataMapper Adapter keeps in lock-step with major and
+The FriendlyId Mongoid Adapter keeps in lock-step with major and
 minor versions of the FriendlyId gem, i.e.
 `friendly_id_datamapper 3.1.x` is compatible with `friendly_id 3.1.x series`.
 Patch and build versions are not kept in lock-step.
@@ -27,13 +27,13 @@ Patch and build versions are not kept in lock-step.
     gem install friendly_id friendly_id_datamapper
 
     require "friendly_id"
-    require "friendly_id/datamapper"
+    require "friendly_id/mongoid"
 
     class Post
-      include DataMapper::Resource
+      include Mongoid::Document
 
-      property :id,    Serial
-      property :title, String
+      field :id,    Serial
+      field :title, String
 
       has_friendly_id :title, :use_slug => true
     end
@@ -44,12 +44,12 @@ For more information on the available features, please see the
 
 ## Bugs
 
-Please report them on the [Github issue tracker](http://github.com/myabc/friendly_id_datamapper/issues)
+Please report them on the [Github issue tracker](http://github.com/myabc/friendly_id_mongoid/issues)
 for this project.
 
 If you have a bug to report, please include the following information:
 
-* **Version information for FriendlyId, friendly_id_datamapper, Rails and Ruby.**
+* **Version information for FriendlyId, friendly_id_mongoid, Rails and Ruby.**
 * Stack trace and error message.
 * Any snippets of relevant model, view or controller code that shows how your
   are using FriendlyId.

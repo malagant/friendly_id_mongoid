@@ -2,7 +2,7 @@ require 'friendly_id/slugged'
 require 'friendly_id/status'
 
 module FriendlyId
-  module DataMapperAdapter
+  module MongoidAdapter
 
     module SluggedModel
 
@@ -94,7 +94,7 @@ module FriendlyId
             message = "Could not find #{self.name} with key #{key.inspect}"
             message << " and scope #{scope.inspect}" if scope
             message << ". Scope expected but none given." unless scope
-            raise(::DataMapper::ObjectNotFoundError, message)
+            raise(::Mongoid::ObjectNotFoundError, message)
           end
         end
 

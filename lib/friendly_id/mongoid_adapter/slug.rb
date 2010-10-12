@@ -1,19 +1,13 @@
-# A Slug is a unique, human-friendly identifier for a DataMapper model
+# A Slug is a unique, human-friendly identifier for a Mongoid model
 class Slug
-  include ::DataMapper::Resource
+  include ::Mongoid::Document
+  include ::Mongoid::Timestamps
 
-  property :id,             Serial
-  property :name,           String,   :index => :index_slugs_on_n_s_s_and_s, :required => true, :length => 1..255
-  property :sluggable_id,   Integer,  :index => :sluggable_id
-  property :sequence,       Integer,  :index => :index_slugs_on_n_s_s_and_s, :required => true, :default => 1
-  property :sluggable_type, Class,    :index => :index_slugs_on_n_s_s_and_s
-  property :scope,          String,   :index => :index_slugs_on_n_s_s_and_s
-  property :created_at,     DateTime
-
-  before :save do
-    self.sequence   = next_sequence
-    self.created_at = DateTime.now
-  end
+  field :name,              :type => String,   :required => true, :length => 1..255
+  field :sluggable_id,      :type => Integer
+  field :sequence,          :type => Integer,  :required => true, :default => 1
+  field :sluggable_type,    :type => Class
+  field :scope,             :type => String
 
   def self.similar_to(slug)
     all({
